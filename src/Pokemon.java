@@ -5,7 +5,7 @@ public class Pokemon {
 
     /**
      * constructeur Pokemon
-     * @param nom
+     * @param nom dev
      * @param hp
      * @param atk
      */
