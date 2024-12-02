@@ -4,6 +4,10 @@ public class PokemonEau extends Pokemon{
         super(nom, hp, atk);
     }
 
+    /**
+     * surchage de la méthode ataquer
+     * @param p
+     */
     @Override
     public void attaquer(Pokemon p) {
         if(p instanceof PokemonFeu){

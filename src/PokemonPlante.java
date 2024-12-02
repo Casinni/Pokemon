@@ -16,6 +16,11 @@ public class PokemonPlante extends Pokemon{
         }
 
     }
+
+    /**
+     * surcharge de la méthode attaquer pour pokemonPlante
+     * @return
+     */
     @Override
     public String toString() {
         return "PokemonPlante{" +

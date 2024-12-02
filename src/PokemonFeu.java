@@ -3,6 +3,11 @@ public class PokemonFeu extends Pokemon{
     public PokemonFeu(String nom, int hp, int atk) {
         super(nom, hp, atk);
     }
+
+    /**
+     * surchage de la méthode attaquer pour pokemon feu
+     * @param p
+     */
     @Override
     public void attaquer(Pokemon p) {
         if(p instanceof PokemonFeu){
